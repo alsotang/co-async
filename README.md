@@ -23,7 +23,7 @@ values.should.eql({a: 2, b: 4, c: 6, d: 8})
 ### map(obj, limit, gen)
 
 
-`obj` -- array or object. e.g. `[1,2,3,4]` or `{a: 1, b: 2}
+`obj` -- array or object. e.g. `[1,2,3,4]` or `{a: 1, b: 2}`
 
 `limit` -- concurrency limit
  

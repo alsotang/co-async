@@ -1,6 +1,6 @@
 {
   "name": "co-async",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "control flow for co and generator",
   "main": "index.js",
   "scripts": {
