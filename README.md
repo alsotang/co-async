@@ -1,8 +1,11 @@
 # co-async
 
+[![Build Status](https://travis-ci.org/alsotang/co-async.svg?branch=master)](https://travis-ci.org/alsotang/co-async)
+
 ## quick start
 
 ```js
+var coAsync = require('co-async')
 var initValues = {a: 1, b: 2, c: 3, d: 4}
 
 var start = new Date
