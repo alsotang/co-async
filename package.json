@@ -1,6 +1,6 @@
 {
   "name": "co-async",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "control flow for co and generator",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/alsotang/co-async/issues"
   },
-  "homepage": "https://github.com/alsotang/co-async#readme"
+  "homepage": "https://github.com/alsotang/co-async#readme",
+  "dependencies": {
+    "async": "^1.5.0",
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "co-mocha": "^1.1.2",
+    "istanbul": "^0.4.0",
+    "ko-sleep": "^1.0.2",
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
+  }
 }
