@@ -16,10 +16,9 @@ values.should.eql({a: 2, b: 4, c: 6, d: 8})
 
 ## API
 
-```js
-map(obj, gen)
-map(obj, limit, gen)
-```
+### map(obj, gen)
+### map(obj, limit, gen)
+
 
 `obj` -- array or object. e.g. `[1,2,3,4]` or `{a: 1, b: 2}
 
