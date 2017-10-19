@@ -1,5 +1,7 @@
 # co-async
 
+**DEPRECATED. please use bluebird.map, it can control concurrency limit now. http://bluebirdjs.com/docs/api/promise.map.html**
+
 [![Build Status](https://travis-ci.org/alsotang/co-async.svg?branch=master)](https://travis-ci.org/alsotang/co-async)
 
 ## quick start
@@ -26,5 +28,5 @@ values.should.eql({a: 2, b: 4, c: 6, d: 8})
 `obj` -- array or object. e.g. `[1,2,3,4]` or `{a: 1, b: 2}`
 
 `limit` -- concurrency limit
- 
+
 `gen` -- a generator
